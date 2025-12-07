@@ -30,8 +30,8 @@ flowchart TD
   UI --> CMP[Prompt components]
   UI --> LIB[AI service]
   UI --> TYPES[Prompt types]
-  UI --> Clarify[/api/prompt-pilot/clarify]
-  UI --> Roadmap[/api/prompt-pilot/roadmap]
+  UI --> Clarify[/api/prompt-pilot/clarify/]
+  UI --> Roadmap[/api/prompt-pilot/roadmap/]
   Clarify --> OAI[OpenAI API]
   Roadmap --> OAI
 ```
